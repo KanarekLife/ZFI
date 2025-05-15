@@ -81,7 +81,7 @@ W trakcie analizy rynku i potrzeb klientów, zidentyfikowano kilka kluczowych ob
   [
     #align(center)[*Cena*]
 
-    Cena detaliczna: 399 zł
+    Cena detaliczna: 499 zł
 
     Segment: budżet premium (tańszy niż Carpuride, ale bardziej funkcjonalny niż adaptery)
 
@@ -114,7 +114,7 @@ W trakcie analizy rynku i potrzeb klientów, zidentyfikowano kilka kluczowych ob
   table.header([*Składnik*], [*Cena \[zł\]*]),
   [
     Ekran IPS 5" Full HD (1080p) + kontroler
-  ],[80],
+  ],[50],
   [
     Obudowa + montaż (plastik/metal)
   ],[20],
@@ -125,8 +125,8 @@ W trakcie analizy rynku i potrzeb klientów, zidentyfikowano kilka kluczowych ob
     Dashcam (przednia kamera 1080p)
   ],[28],
   [
-    Płytka PCB + mikrokontroler
-  ],[30],
+    Płytka PCB + mikrokontroler (np. Rockchip RK3566)
+  ],[60],
   [
     Akcesoria (uchwyt, ładowarka, przewody)
   ],[14],
@@ -198,13 +198,13 @@ W trakcie analizy rynku i potrzeb klientów, zidentyfikowano kilka kluczowych ob
   ],[*366 500*],
   [
     Cena detaliczna (szt.)
-  ],[399],
+  ],[499],
   [
     Przychód (1 000 szt.)
-  ],[399 000],
+  ],[499 000],
   [
     *Zysk brutto*
-  ],[*32 500*]
+  ],[*132 500*]
 )
 
 == Plan wejścia na rynek
