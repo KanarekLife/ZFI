@@ -270,6 +270,25 @@
 )
 ]
 
+== Harmonogram wprowadzenia na rynek
+
+#set text(size: 12pt)
+#align(center+horizon)[
+  #grid(
+    columns: 13,
+    gutter: 0.5cm,
+    [Etap], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
+    [R&D], grid.cell(colspan: 4, fill: blue)[] , [], [], [], [], [], [], [], [],
+    [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [], [], [], [],
+    [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: blue)[], [], [], [], [], [],
+    [Testy i certyfikacja CE], [], [], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [], [],
+    [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [],
+    [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: blue)[], [], [], [],
+    [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: blue)[],
+    [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: blue)[],
+  )
+]
+
 #slide[
   #set align(horizon+center)
   = Pytania?
