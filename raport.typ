@@ -7,7 +7,7 @@ Celem tego raportu jest analiza wejścia na rynek produktu SmartDrive 5" oraz oc
 == Generowanie i selekcja pomysłów
 
 #grid(
-  columns: (auto, 1fr, auto),
+  columns: (auto, 10pt, auto),
   [
     W wyniku burzy mózgów i analizy rynku, zespół projektowy wybrał pomysł na stworzenie przenośnego urządzenia SmartDrive 5", które łączy funkcje nawigacji GPS, Android Auto oraz dashcam. Produkt ten ma na celu zaspokojenie potrzeb klientów, którzy chcą korzystać z nowoczesnych technologii w swoich starszych pojazdach bez konieczności ich wymiany lub kosztownej instalacji. Zidentyfikowano także kilka kluczowych obszarów, które mogą wpłynąć na sukces produktu:
     - Rosnące zainteresowanie funkcjami rejestracji jazdy (dashcam) w kontekście bezpieczeństwa na drodze.
@@ -85,7 +85,7 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
   [
     #align(center)[*Produkt*]
 
-    Ekran 5″ IPS (800×480), łączność WiFi i Bluetooth
+    Ekran TFT 5" HD (720p), łączność WiFi i Bluetooth
 
     Obsługa bezprzewodowego Android Auto
 
@@ -98,9 +98,9 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
   [
     #align(center)[*Cena*]
 
-    Cena detaliczna: 499 zł
+    Cena: 600 zł
 
-    Segment: budżet premium (tańszy niż Carpuride, ale bardziej funkcjonalny niż adaptery)
+    Segment: budżet premium (tańszy niż radia samochodowe, bardziej funkcjonalny niż adaptery)
 
     Rabaty dla influencerów, blogerów motoryzacyjnych, ich widzów oraz dla pierwszych klientów
   ],
@@ -145,7 +145,7 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
     Płytka PCB + mikrokontroler + elementry dyskretne
   ], [70],
   [
-    Akcesoria (uchwyt, ładowarka, przewody)
+    Akcesoria (uchwyt, ładowarka, przewody, itp.)
   ], [20],
   [
     Koszt produkcji (1 szt.)
@@ -158,7 +158,7 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
 === B. Koszty personelu (rocznie, proporcjonalnie do 1 000 szt.)
 
 #table(
-  columns: (auto, auto, auto),
+  columns: (1fr, auto, auto),
   table.header([*Stanowisko*], [*Liczba*], [*Roczne wynagrodzenie \[zł\]*]),
   [
     Inżynier R&D (projektant i programista firmware)
@@ -174,7 +174,7 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
     Testy i certyfikacja CE
   ], [8 000 zł],
   [
-    Opakowania i instrukcje
+    Opakowania i instrukcje (design)
   ], [4 000 zł],
   [
     Marketing startowy (mikro-influencerzy, reklama)
@@ -196,44 +196,52 @@ Na koniec 2023 roku w Polsce zarejestrowanych było 27,347 mln samochodów oso
   ], [10 000zł],
   [
     *Razem koszty operacyjne*
-  ],[*38 500 zł*]
+  ],[*41 500zł*]
 )
 
 === D. Podsumowanie finansowe
 
 #table(
-  columns: (1fr, auto),
-  table.header([*Pozycja*], [*Kwota \[zł\]*]),
+  columns: (1fr, auto, auto, auto),
+  table.header([*Pozycja*], [*Kwota \[zł\] (100 szt.)*], [*Kwota \[zł\] (1000 szt.)*], [*Kwota \[zł\] (2500 szt.)*]),
   [
-    Koszt produkcji (1 000 szt.)
-  ],[270 000],
+    Koszt produkcji
+  ],[27 000],[270 000],[675 000],
   [
     Koszt personelu
-  ],[120 000],
+  ],[120 000],[120 000],[120 000],
   [
     Koszt operacyjny
-  ],[38 500],
+  ],[41 500],[41 500],[41 500],
   [
-    *Razem koszty*
-  ],[*428 500*],
-  [
-    Cena detaliczna (szt.)
-  ],[600],
-  [
-    Przychód (1 000 szt.)
-  ],[600 000],
-  [
-    *Zysk brutto*
-  ],[*171 500*]
+    *Suma*
+  ],[*188 500*],[*431 500*],[*836 500*],
+  [Zysk przy cenie 300 zł],[-158 500],[-131 500],[-86 500],
+  [Zysk przy cenie 400 zł],[-148 500],[-31 500],[163 500],
+  [Zysk przy cenie 500 zł],[-138 500],[68 500],[413 500],
+  [Zysk przy cenie 600 zł],[-128 500],[168 500],[663 500],
+  [Zysk przy cenie 700 zł],[-118 500],[268 500],[913 500],
 )
 
-== Plan wejścia na rynek
+Można zauważyć, że dzięki stałym kosztom personelu i operacyjnym głównym czynnikiem wpływającym na zysk jest ilość wyprodukowanych i sprzedanych sztuk.
+W celach porównawczych założono stałą cenę produkcji niezależnie od ilości produkcji, co w rzeczywistości może się zmienić z uwagi na niższe ceny zamówień hurtowych.
+W analizie cena 600 zł za sztukę wydaje się być najbardziej optymalna, ponieważ przy tej cenie zysk na poziomie 168 500 zł przy sprzedaży 1000 sztuk jest wystarczający do pokrycia kosztów oraz odnotowania zysku na poziomie ok 100 000 zł.
+Jest to również cena konkurencyjna w porównaniu do innych produktów na rynku, takich jak Carlinkit i Ottocast, które są droższe i oferują podobne funkcje.
 
-- Prototyp i testy (0–6 miesiąc) – prototypowanie, utworzenie firmware'u,
-  produkcja pierwszych 100 sztuk, testy funkcjonalności i jakości
+== Harmonogram wprowadzenia na
 
-- Kampania przedsprzedażowa (6-12 miesiąc) - testy i certyfikacja CE, 
-  uruchomienie strony WWW, kampania marketingowa, współpraca z influencerami
-
-- Produkcja i logistyka (12+ miesiąc) – pierwsze 1000 sztuk, 
-  uruchomienie sprzedaży, monitorowanie wyników i opinii klientów
+#align(center)[
+  #grid(
+    columns: 13,
+    gutter: 0.5cm,
+    [Etap], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
+    [R&D], grid.cell(colspan: 4, fill: blue)[] , [], [], [], [], [], [], [], [],
+    [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [], [], [], [],
+    [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: blue)[], [], [], [], [], [],
+    [Testy i certyfikacja CE], [], [], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [], [],
+    [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: blue)[], [], [], [], [],
+    [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: blue)[], [], [], [],
+    [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: blue)[],
+    [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: blue)[],
+  )
+]

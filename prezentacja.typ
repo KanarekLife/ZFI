@@ -29,12 +29,20 @@
 
   #set align(horizon)
 
+  #grid(
+  columns: (auto, 10pt, auto),
+  [
   - kompaktowy, wielofunkcyjny ekran multimedialny do auta
   - bezprzewodowy Android Auto
   - wbudowany rejestrator jazdy 1080p
   - odtwarzanie muzyki przez Bluetooth lub AUX
   - zasilane z gniazda 12 V
   - montaż na przyssawkę
+  ],
+  [],
+  [#image("imgs/ezgif-89085586ca21ab.jpg", width: 140pt)]
+)
+
 ]
 
 #slide[
@@ -45,6 +53,7 @@
   - kierowcy posiadający samochody bez wbudowanego Android Auto
   - osoby, które nie chcące wydawać pieniędzy na montaż radia 2-din wspierającego Android Auto
   - osoby mające przeciwskazania względem zakupu bezpośredniego chińskich technologii
+  - wg. `aut.fi` średni wiek auta w Polsce to 15.1 roku (na rok 2023)
 ]
 
 #slide[
@@ -62,31 +71,6 @@
 ]
 
 #slide[
-  = Podzespoły
-
-  #set align(horizon)
-
-  - Ekran IPS 5" Full HD (1080p) + kontroler
-  - Obudowa + montaż (plastik/metal)
-  - Moduł Wi-Fi/Bluetooth
-  - Dashcam (przednia kamera 1080p)
-  - Płytka PCB + mikrokontroler
-  - Akcesoria (uchwyt, ładowarka, przewody)
-  \
-
-  Koszt produkcji (1 szt. przy nakładzie 1000 szt.): 215 zł
-]
-
-#slide[
-  = Zespół projektowy
-
-  #set align(horizon)
-
-  - Inżynier / Specjalista multi-role (koszt roczny: 120 000 zł)
-
-]
-
-#slide[
   = Kosztorys
 
   #set text(size: 16pt)
@@ -97,39 +81,39 @@
   columns: (1fr, auto),
   table.header([*Składnik*], [*Cena \[zł\]*]),
   [
-    Ekran IPS 5" Full HD (1080p) + kontroler
-  ],[50],
+    Ekran TFT 5" HD (720p)
+  ], [30],
   [
     Obudowa + montaż (plastik/metal)
-  ],[20],
+  ], [20],
   [
     Moduł Wi‑Fi/Bluetooth
-  ],[18],
+  ], [5],
   [
     Dashcam (przednia kamera 1080p)
-  ],[28],
+  ], [100],
   [
-    Płytka PCB + mikrokontroler (np. Rockchip RK3566)
-  ],[60],
+    Płytka PCB + mikrokontroler + elementry dyskretne
+  ], [70],
   [
-    Akcesoria (uchwyt, ładowarka, przewody)
-  ],[14],
+    Akcesoria (uchwyt, ładowarka, przewody, itp.)
+  ], [20],
   [
     Koszt produkcji (1 szt.)
   ], [25],
   [
     *Razem*
-  ],[*215*]
+  ],[*270*]
 )
 
 === B. Koszty personelu (rocznie, proporcjonalnie do 1 000 szt.)
 
 #table(
-  columns: (auto, auto, auto, auto),
-  table.header([*Stanowisko*], [*Liczba*], [*Roczne wynagrodzenie \[zł\]*], [*Proporcjonalny koszt (1 000 szt.) \[zł\]*]),
+  columns: (1fr, auto, auto),
+  table.header([*Stanowisko*], [*Liczba*], [*Roczne wynagrodzenie \[zł\]*]),
   [
-    Inżynier / Specjalista multi‑role
-  ],[1],[120 000],[120 000]
+    Inżynier R&D (projektant i programista firmware)
+  ],[1],[120 000]
 )
 
 === C. Koszty dodatkowe i operacyjne
@@ -139,61 +123,58 @@
   table.header([*Składnik*], [*Kwota \[zł\]*]),
   [
     Testy i certyfikacja CE
-  ],[8 000 zł],
+  ], [8 000 zł],
   [
-    Opakowania i instrukcje
-  ],[4 000 zł],
+    Opakowania i instrukcje (design)
+  ], [4 000 zł],
   [
     Marketing startowy (mikro-influencerzy, reklama)
-  ],[3 000 zł],
+  ], [3 000 zł],
   [
     Strona WWW / sklep
-  ],[3 000 zł],
+  ], [3 000 zł],
   [
     Magazyn + logistyka
-  ],[5 000 zł],
+  ], [5 000 zł],
   [
     Platformy e‑commerce (prowizje, opłaty)
-  ],[6 000 zł],
+  ], [6 000 zł],
   [
     Obsługa zwrotów i gwarancje
-  ],[2 500 zł],
+  ], [2 500 zł],
+  [
+    Zlecenie zaprojektowania oraz produkcji
+  ], [10 000zł],
   [
     *Razem koszty operacyjne*
-  ],[*31 500 zł*]
+  ],[*41 500zł*]
 )
+
+#pagebreak()
 
 === D. Podsumowanie finansowe
 
 #table(
-  columns: (1fr, auto),
-  table.header([*Pozycja*], [*Kwota \[zł\]*]),
+  columns: (1fr, auto, auto, auto),
+  table.header([*Pozycja*], [*Kwota \[zł\] (100 szt.)*], [*Kwota \[zł\] (1000 szt.)*], [*Kwota \[zł\] (2500 szt.)*]),
   [
-    Koszt produkcji (1 000 szt.)
-  ],[215 000],
+    Koszt produkcji
+  ],[27 000],[270 000],[675 000],
   [
     Koszt personelu
-  ],[120 000],
+  ],[120 000],[120 000],[120 000],
   [
     Koszt operacyjny
-  ],[31 500],
+  ],[41 500],[41 500],[41 500],
   [
-    *Razem koszty*
-  ],[*366 500*],
-  [
-    Cena detaliczna (szt.)
-  ],[499],
-  [
-    Przychód (1 000 szt.)
-  ],[499 000],
-  [
-    *Zysk brutto*
-  ],[*132 500*]
+    *Suma*
+  ],[*188 500*],[*431 500*],[*836 500*],
+  [Zysk przy cenie 300 zł],[-158 500],[-131 500],[-86 500],
+  [Zysk przy cenie 400 zł],[-148 500],[-31 500],[163 500],
+  [Zysk przy cenie 500 zł],[-138 500],[68 500],[413 500],
+  [Zysk przy cenie 600 zł],[-128 500],[168 500],[663 500],
+  [Zysk przy cenie 700 zł],[-118 500],[268 500],[913 500],
 )
-
-- W przypadku wzrostu zainteresowania produketem, możliwe jest zwiększenie produkcji oraz obniżenie kosztów jednostkowych
-- W fazie "bootstrap" zakładamy produkcję i składanie bezpośrednio w Chinach i model sprzedaży oparty na dropshippingu (współpraca z chińskim producentem, który zajmie się wysyłką do klienta) oraz sprzedaż przez Allegro i Amazon (własny sklep internetowy w późniejszym etapie)
-- W późniejszych etapach potrzebne będzie rozszerzenie zespołu
 
 ]
 
@@ -207,7 +188,7 @@
   [
     #align(center)[*Produkt*]
 
-    Ekran 5″ IPS (800×480), łączność WiFi i Bluetooth
+    Ekran TFT 5" HD (720p), łączność WiFi i Bluetooth
 
     Obsługa bezprzewodowego Android Auto
 
@@ -220,9 +201,9 @@
   [
     #align(center)[*Cena*]
 
-    Cena detaliczna: 499 zł
+    Cena: 600 zł
 
-    Segment: budżet premium (tańszy niż Carpuride, ale bardziej funkcjonalny niż adaptery)
+    Segment: budżet premium (tańszy niż radia samochodowe, bardziej funkcjonalny niż adaptery)
 
     Rabaty dla influencerów, blogerów motoryzacyjnych, ich widzów oraz dla pierwszych klientów
   ],
