@@ -53,7 +53,15 @@
   - kierowcy posiadający samochody bez wbudowanego Android Auto
   - osoby, które nie chcące wydawać pieniędzy na montaż radia 2-din wspierającego Android Auto
   - osoby mające przeciwskazania względem zakupu bezpośredniego chińskich technologii
+]
+
+#slide[
+  = Grupa docelowa
+
+  #set align(horizon)
+
   - wg. `aut.fi` średni wiek auta w Polsce to 15.1 roku (na rok 2023)
+  - na koniec 2023 roku zarejestrowanych było około 27,4 miliona pojazdów osobowych, z czego po odliczeniu tzw. „martwych dusz” (nieużywanych, ale niewyrejestrowanych aut) aktywnych było około 20,1 miliona pojazdów (pb.pl)
 ]
 
 #slide[
@@ -68,6 +76,18 @@
   )
 
   m.in. Ottocast 5″, CoralVision R12 5″, Drivvplay M1004-5
+]
+
+#slide[
+  = Konkurencja
+
+  #set align(horizon)
+
+  Co można zrobić lepiej?
+
+  - wbudowany rejestrator jazdy (dashcam) 1080p
+  - promocja rozwiązania w Polsce (aktualnie mało znane rozwiązanie)
+  - większy nacisk na przenośność i mobilność (montaż na przyssawkę); możliwość montażu w nietypowych autach
 ]
 
 #slide[
@@ -106,6 +126,8 @@
   ],[*270*]
 )
 
+#pagebreak()
+
 === B. Koszty personelu (rocznie, proporcjonalnie do 1 000 szt.)
 
 #table(
@@ -115,6 +137,8 @@
     Inżynier R&D (projektant i programista firmware)
   ],[1],[120 000]
 )
+
+#pagebreak()
 
 === C. Koszty dodatkowe i operacyjne
 
@@ -176,6 +200,10 @@
   [Zysk przy cenie 700 zł],[-118 500],[268 500],[913 500],
 )
 
+- W celu rozpoczęcia działania (załóżmy produkcję 1000 sztuk oraz sprzedaż przy cenie 600 zł) potrzebujemy ok. pół miliona złotych na start.
+- Zainwestowane pieniądze zwrócą się po sprzedaży ok 835 sztuk.
+- Możliwość obniżenia kosztów początkowych poprzez przedsprzedaż oraz dropshipping.
+
 ]
 
 #slide[
@@ -236,9 +264,9 @@
   [
     #align(center)[*Mocne Strony (S)*]
 
-    \+ Wielofunkcyjność w jednym
+    \+ Wbudowana kamerka samochodowa
 
-    \+ Plug&Play, bez instalacji
+    \+ Plug&Play, możliwość montażu w każdym aucie
 
     \+ Przystępna cena
   ],
@@ -259,6 +287,8 @@
     \+ Wzrost popularności Android Auto
 
     \+ Mała popularność konkurencji w Polsce
+
+    \+ Różna jakość chińskich produktów (możliwość wyróżnienia się na rynku)
   ],
   [
     #align(center)[*Zagrożenia (T)*]
@@ -266,6 +296,10 @@
     \– Duża konkurencja z Chin (Carlinkit, Ottocast)
 
     \– Zmiany w API Android Auto lub regulacje UE
+
+    \- Duże koszty produkcji i logistyki
+
+    \- Długi czas wejścia na rynek
   ]
 )
 ]
